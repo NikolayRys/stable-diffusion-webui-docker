@@ -15,17 +15,13 @@ mkdir -vp /data/.cache \
 
 echo "Downloading, this might take a while..."
 
-aria2c -x 10 --disable-ipv6 --input-file /docker/links.txt --dir /data/models --continue
+aria2c -x 10 --disable-ipv6 --input-file /docker/models_links.txt --dir /data/models --continue
+aria2c -x 10 --disable-ipv6 --input-file /docker/embeddings_links.txt --dir /data/embeddings --continue
 
-echo "Checking SHAs..."
-
-parallel --will-cite -a /docker/checksums.sha256 "echo -n {} | sha256sum -c"
-
-cat <<EOF
-By using this software, you agree to the following licenses:
-https://github.com/AbdBarho/stable-diffusion-webui-docker/blob/master/LICENSE
-https://github.com/CompVis/stable-diffusion/blob/main/LICENSE
-https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/LICENSE.txt
-https://github.com/invoke-ai/InvokeAI/blob/main/LICENSE
-And licenses of all UIs, third party libraries, and extensions.
-EOF
+echo "Downlading git repos..."
+git clone https://github.com/Mikubill/sd-webui-controlnet.git /data/config/auto/extensions
+git clone https://github.com/Bing-su/adetailer.git /data/config/auto/extensions
+git clone https://github.com/adieyal/sd-dynamic-prompts.git /data/config/auto/extensions
+git clone https://github.com/ArtVentureX/sd-webui-agent-scheduler.git /data/config/auto/extensions
+git clone https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper.git /data/config/auto/extensions
+echo "Done!"

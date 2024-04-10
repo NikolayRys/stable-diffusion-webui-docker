@@ -1,0 +1,38 @@
+https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth
+  out=GFPGAN/GFPGANv1.4.pth
+https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth
+  out=RealESRGAN/RealESRGAN_x4plus.pth
+https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth
+  out=RealESRGAN/RealESRGAN_x4plus_anime_6B.pth
+https://heibox.uni-heidelberg.de/f/31a76b13ea27482981b4/?dl=1
+  out=LDSR/project.yaml
+https://heibox.uni-heidelberg.de/f/578df07c8fc04ffbadf3/?dl=1
+  out=LDSR/model.ckpt
+https://civitai.com/api/download/models/195744
+  out=Stable-diffusion/darksun_v60AkaFutasun.safetensors
+https://civitai.com/api/download/models/130121
+  out=Stable-diffusion/darksun_v41.safetensors
+https://civitai.com/api/download/models/290640?type=Model&format=SafeTensor&size=pruned&fp=fp16
+  out=ponyDiffusionV6XL_v6StartWithThisOne.safetensors
+https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
+  out=VAE/vae-ft-mse-840000-ema-pruned.ckpt
+https://civitai.com/api/download/models/290640?type=VAE
+  out=VAE/sdxl_vae.safetensors
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth.pth
+  out=ControlNet/control_v11f1p_sd15_depth.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth.yaml
+  out=ControlNet/control_v11f1p_sd15_depth.yaml
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_lineart.pth
+  out=ControlNet/control_v11p_sd15_lineart.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_lineart.yaml
+  out=ControlNet/control_v11p_sd15_lineart.yaml
+https://huggingface.co/XpucT/Loras/resolve/main/Lit.safetensors
+  out=Lora/Lit.safetensors
+https://huggingface.co/XpucT/Loras/resolve/main/LowRA_v1.safetensors
+  out=Lora/LowRA_v1.safetensors
+https://huggingface.co/XpucT/Loras/resolve/main/LowRA_v2.safetensors
+  out=Lora/LowRA_v2.safetensors
+https://civitai.com/api/download/models/297988?type=Model&format=SafeTensor
+   out=Lora/smooth_style_lora_xl.safetensor
+https://civitai.com/api/download/models/330475?type=Model&format=SafeTensor
+   out=Lora/concept_art_twilight_stryle_sdxl_lora_pony_diffusion_v6_xl.safetensors

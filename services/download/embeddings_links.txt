@@ -1,0 +1,2 @@
+https://civitai.com/api/download/models/25820?type=Model&format=PickleTensor&size=full&fp=fp16
+  out=veryBadImageNegative_v1.3.pt
