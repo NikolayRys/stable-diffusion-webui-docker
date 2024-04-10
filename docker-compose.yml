@@ -31,4 +31,4 @@ services:
     build: ./services/AUTOMATIC1111
     image: sd-auto:73
     environment:
-      - CLI_ARGS=--allow-code --xformers --enable-insecure-extension-access --api --gradio-auth "yazva:${PASSWORD}"
+      - CLI_ARGS=--allow-code --xformers --enable-insecure-extension-access --api --gradio-auth yazva:${PASS:-defaultpassword}
