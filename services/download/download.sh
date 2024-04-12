@@ -13,7 +13,7 @@ mkdir -vp /data/.cache \
   /data/models/LDSR \
   /data/models/VAE
 
-echo "Downloading, this might take a while..."
+echo "Downloading, this might take a while, please wait..."
 
 aria2c -x 10 --disable-ipv6 --input-file /docker/models_links.txt --dir /data/models --continue
 aria2c -x 10 --disable-ipv6 --input-file /docker/embeddings_links.txt --dir /data/embeddings --continue
