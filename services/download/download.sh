@@ -11,7 +11,8 @@ mkdir -vp /data/.cache \
   /data/models/GFPGAN \
   /data/models/RealESRGAN \
   /data/models/LDSR \
-  /data/models/VAE
+  /data/models/VAE \
+  /data/models/Lora
 
 echo "Downloading, this might take a while, please wait..."
 
