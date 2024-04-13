@@ -19,4 +19,4 @@ sudo systemctl restart docker
 # Startup
 cd ~/webui && PASS=K#p7^iXX%f3Y3r3S docker compose --profile auto up --build -d
 
-echo "Done, WEBUI IS READY!
+echo "Done, WEBUI IS READY!"
