@@ -10,7 +10,7 @@ CONFIG_JSON='{
             "runtimeArgs": []
         }
     },
-    "data-root": "/mnt/ebs/docker"
+    "data-root": "/home/ubuntu/webui/docker"
 }'
 
 echo "$CONFIG_JSON" | sudo tee /etc/docker/daemon.json > /dev/null
