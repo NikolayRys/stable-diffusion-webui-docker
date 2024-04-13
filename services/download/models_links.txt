@@ -13,7 +13,7 @@ https://civitai.com/api/download/models/195744
 https://civitai.com/api/download/models/130121
   out=Stable-diffusion/darksun_v41.safetensors
 https://civitai.com/api/download/models/290640?type=Model&format=SafeTensor&size=pruned&fp=fp16
-  out=ponyDiffusionV6XL_v6StartWithThisOne.safetensors
+  out=Stable-diffusion/ponyDiffusionV6XL_v6StartWithThisOne.safetensors
 https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
   out=VAE/vae-ft-mse-840000-ema-pruned.ckpt
 https://civitai.com/api/download/models/290640?type=VAE
