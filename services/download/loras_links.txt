@@ -1,4 +1,4 @@
-https://civitai.com/api/download/models/333587/Smooth Style 2 SDXL_LoRA_Pony Diffusion V6 XL.safetensors
+https://civitai.com/api/download/models/333587
   out=Smooth Style 2 SDXL_LoRA_Pony Diffusion V6 XL.safetensors
 https://huggingface.co/XpucT/Loras/resolve/main/Lit.safetensors
   out=Lit.safetensors
@@ -8,5 +8,5 @@ https://huggingface.co/XpucT/Loras/resolve/main/LowRA_v2.safetensors
   out=LowRA_v2.safetensors
 https://civitai.com/api/download/models/330475?type=Model&format=SafeTensor
    out=concept_art_twilight_stryle_sdxl_lora_pony_diffusion_v6_xl.safetensors
-https://civitai.com/api/download/models/402943/PD_MaleMix.safetensors
+https://civitai.com/api/download/models/402943
   out=PD_MaleMix.safetensors
