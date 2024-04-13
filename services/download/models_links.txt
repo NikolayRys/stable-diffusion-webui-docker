@@ -1,5 +1,3 @@
-# how should I get a full link to a model file including file name extension?
-
 https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth
   out=GFPGAN/GFPGANv1.4.pth
 https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth
