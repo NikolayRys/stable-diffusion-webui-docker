@@ -17,6 +17,7 @@ echo "Downloading, this might take a while, please wait..."
 
 aria2c -x 10 --disable-ipv6 --input-file /docker/models_links.txt --dir /data/models --continue
 aria2c -x 10 --disable-ipv6 --input-file /docker/embeddings_links.txt --dir /data/embeddings --continue
+aria2c -x 10 --disable-ipv6 --input-file /docker/loras_links.txt --dir /data/models/Lora --continue
 
 echo "Downlading git repos..."
 git clone https://github.com/Mikubill/sd-webui-controlnet.git /data/config/auto/extensions/sd-webui-controlnet
