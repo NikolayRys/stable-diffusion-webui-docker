@@ -1,1 +1,2 @@
 https://civitai.com/api/download/models/333587/Smooth Style 2 SDXL_LoRA_Pony Diffusion V6 XL.safetensors
+  out=Lora/Smooth Style 2 SDXL_LoRA_Pony Diffusion V6 XL.safetensors
