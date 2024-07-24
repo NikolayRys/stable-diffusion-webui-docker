@@ -17,6 +17,6 @@ echo "$CONFIG_JSON" | sudo tee /etc/docker/daemon.json > /dev/null
 sudo systemctl restart docker
 
 # Startup
-cd /home/ubuntu/webui && PASS=K#p7^iXX%f3Y3r3S docker compose --profile auto up --build -d
+docker compose --profile auto -f /home/ubuntu/webui/docker-compose.yml up --build -d
 
 echo "Done, WEBUI IS READY!"
