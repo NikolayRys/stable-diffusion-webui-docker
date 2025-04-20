@@ -27,7 +27,7 @@ services:
     <<: *base_service
     profiles: ["auto"]
     build: ./services/AUTOMATIC1111
-    image: sd-auto:79
+    image: sd-auto:80
     environment:
       - CLI_ARGS=--allow-code --xformers --enable-insecure-extension-access --api --gradio-auth yazva:K#p7^iXX%f3Y3r3S
     restart: always
